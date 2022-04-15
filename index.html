@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lighthouse Coffee</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <!-- Header section starts -->
+    <header>
+
+        <div class="logo">
+            <i class="fa-solid fa-mug-hot"></i>
+            <!-- <i class="fa-solid fa-mug"></i> -->
+            <a href="#">lighthouse</a>
+        </div>
+
+        <div class="nav-container">
+            <nav class="navbar">
+                <a href="#home">home</a>
+                <a href="#about">about</a>
+                <a href="#beverages">beverages</a>
+                <a href="#bites">bites</a>
+                <a href="#contact">contact</a>
+            </nav>
+    
+            <div class="icons">
+                <i class="fa-solid fa-bars" id="menu-btn"></i>
+                <i class="fa-solid fa-user" id="login-btn"></i>
+            </div>
+        </div>
+
+
+        <div class="login">
+            <h3>member login</h3>
+            <div class="input-box">
+                <label for="name">name</label>
+                <input type="text" id="name">
+            </div>
+            <div class="input-box">
+                <label for="email">email</label>
+                <input type="email" id="email">
+            </div>
+            <div class="sub-input">
+                <div class="remember">
+                    <input type="checkbox" id="remember-me">
+                    <label for="remember-me">remember me</label>
+                </div>
+                <div class="forget">
+                    <a href="#">forgot password ?</a>
+                </div>
+            </div>
+            <a href="#" type="submit" class="btn">login</a>
+        </div>
+
+    </header>
+    <!-- Header section ends -->
+
+    <!-- Home section starts -->
+    <section class="home" id="home">
+
+        <div class="title-container">
+            <h2>welcome to <span>lighthouse</span></h2>
+        </div>
+
+        <div class="content-container">
+            
+            <div class="image">
+                <img src="/images/home-image-1.jpg" alt="">
+            </div>
+
+            <div class="content-wrapper">
+                <div class="content">
+                    <h3>lighthouse cafe ...</h3>
+                    <p class="slogan">Bringing you the finest in Brazilian coffee blends since 2007</p>
+                    <p class="body">
+                        As our name implies, <a href="#contact">Lighthouse Cafe</a> is an early morning beacon for the neighborhood we serve.
+                        Providing a bit of comfort <span class="caffeine">( and caffeine! )</span> to get you going in the morning, 
+                        or to <span class="keep">keep </span> you going any time of day ! 
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+    <!-- Home section ends -->
+
+    <!-- About section starts -->
+    <section class="about" id="about">
+        <div class="title-container">
+            <h2>about <span>us</span></h2>
+        </div>
+        <div class="content-wrapper">
+            <div class="content-container">
+                <div class="box">
+                    <div class="content">
+                        <i class="fa-solid fa-circle-info" id="info"></i>
+                        <img src="/images/about-image-1.jpg" alt="">
+                        <div class="hidden-content">
+                            <p>
+                                Our beans are sourced from the South-Eastern Brazilian State of Minaes Gerais.
+                                The hot and humid climate there produces a sweet, sometimes citrusy coffee that
+                                can have hints of caramel or chocolate.
+                            </p>
+                            <p class="accent">~ <i class="fa-solid fa-leaf"></i> ~</p>
+                        </div>
+                    </div>
+                    <div class="box-title">
+                        <h3>source</h3>                    
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <i class="fa-solid fa-circle-info" id="info"></i>
+                        <img src="/images/about-image-2.jpg" alt="">
+                        <div class="hidden-content">
+                            <p>
+                                Lighthouse Cafe uses a specialty bean blend know as Mundo Novo.
+                                Typically a dark roast, this unique coffee blend is medium bodied
+                                and our specific roast is sweet with a smooth, smoked caramel finish.
+                            </p>
+                            <p class="accent">~ <i class="fa-solid fa-mug-hot"></i> ~</p>                      
+                        </div>
+                    </div>
+                    <div class="box-title">
+                        <h3>flavor</h3>                    
+                    </div>                  
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <i class="fa-solid fa-circle-info" id="info"></i>
+                        <img src="/images/about-image-3.jpg" alt="">
+                        <div class="hidden-content">
+                            <p>
+                                Here at Lighthouse, we donate 5% of every cup of coffee sold to a charity
+                                or cause of our customer's choice. Every month, we hold a members-only vote
+                                to decide where our donations will go ! 
+                            </p>
+                            <p class="accent">~ <i class="fa-solid fa-money-bill-1-wave"></i> ~</p>
+                        </div>
+                    </div>
+                    <div class="box-title">
+                        <h3>proceeds</h3>                    
+                    </div>
+                </div>
+            </div>         
+        </div>
+        
+    </section>
+    <!-- About section ends -->
+
+    <!-- Beverages section starts -->
+
+        <section class="beverages" id="beverages">
+            <div class="title-container">
+                <h2>our <span>beverages</span></h2>
+            </div>
+
+            <div class="beverage-container">
+                <div class="box">
+                    <div class="image-container">
+                        <img src="/images/beverages-image-1.jpg" alt="">
+                        <div class="order">
+                            <div class="dollar">
+                                <i class="fa-solid fa-dollar-sign"></i>
+                            </div>
+                            <div class="order-btn">
+                                <a href="#" class="btn">order</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-container">
+                        <h3>coffee</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Magnam ad nam exercitationem delectus molestiae ab iste 
+                            libero fuga necessitatibus quisquam.
+                        </p>
+                        <div class="price">
+                            <span>s: $2.00</span>
+                            <span>m: $2.50</span>
+                            <span>l: $3.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image-container">
+                        <img src="/images/beverages-image-2.jpg" alt="">
+                        <div class="order">
+                            <div class="dollar">
+                                <i class="fa-solid fa-dollar-sign"></i>
+                            </div>
+                            <div class="order-btn">
+                                <a href="#" class="btn">order</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-container">
+                        <h3>latte</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Magnam ad nam exercitationem delectus molestiae ab iste 
+                            libero fuga necessitatibus quisquam.
+                        </p>
+                        <div class="price">
+                            <span>S: $2.00</span>
+                            <span>M: $2.50</span>
+                            <span>L: $3.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image-container">
+                        <img src="/images/beverages-image-3.jpg" alt="">
+                        <div class="order">
+                            <div class="dollar">
+                                <i class="fa-solid fa-dollar-sign"></i>
+                            </div>
+                            <div class="order-btn">
+                                <a href="#" class="btn">order</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-container">
+                        <h3>Cappuccino</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Magnam ad nam exercitationem delectus molestiae ab iste 
+                            libero fuga necessitatibus quisquam.
+                        </p>
+                        <div class="price">
+                            <span>S: $2.00</span>
+                            <span>M: $2.50</span>
+                            <span>L: $3.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image-container">
+                        <img src="/images/beverages-image-4.jpg" alt="">
+                        <div class="order">
+                            <div class="dollar">
+                                <i class="fa-solid fa-dollar-sign"></i>
+                            </div>
+                            <div class="order-btn">
+                                <a href="#" class="btn">order</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-container">
+                        <h3>mocha</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Magnam ad nam exercitationem delectus molestiae ab iste 
+                            libero fuga necessitatibus quisquam.
+                        </p>
+                        <div class="price">
+                            <span>S: $2.00</span>
+                            <span>M: $2.50</span>
+                            <span>L: $3.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image-container">
+                        <img src="/images/beverages-image-5.jpg" alt="">
+                        <div class="order">
+                            <div class="dollar">
+                                <i class="fa-solid fa-dollar-sign"></i>
+                            </div>
+                            <div class="order-btn">
+                                <a href="#" class="btn">order</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-container">
+                        <h3>espresso</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Magnam ad nam exercitationem delectus molestiae ab iste 
+                            libero fuga necessitatibus quisquam.
+                        </p>
+                        <div class="price">
+                            <span>S: $2.00</span>
+                            <span>M: $2.50</span>
+                            <span>L: $3.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image-container">
+                        <img src="/images/beverages-image-6.jpg" alt="">
+                        <div class="order">
+                            <div class="dollar">
+                                <i class="fa-solid fa-dollar-sign"></i>
+                            </div>
+                            <div class="order-btn">
+                                <a href="#" class="btn">order</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-container">
+                        <h3>americano</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Magnam ad nam exercitationem delectus molestiae ab iste 
+                            libero fuga necessitatibus quisquam.
+                        </p>
+                        <div class="price">
+                            <span>S: $2.00</span>
+                            <span>M: $2.50</span>
+                            <span>L: $3.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image-container">
+                        <img src="/images/beverages-image-7.jpg" alt="">
+                        <div class="order">
+                            <div class="dollar">
+                                <i class="fa-solid fa-dollar-sign"></i>
+                            </div>
+                            <div class="order-btn">
+                                <a href="#" class="btn">order</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-container">
+                        <h3>hot chocolate</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Magnam ad nam exercitationem delectus molestiae ab iste 
+                            libero fuga necessitatibus quisquam.
+                        </p>
+                        <div class="price">
+                            <span>S: $2.00</span>
+                            <span>M: $2.50</span>
+                            <span>L: $3.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image-container">
+                        <img src="/images/beverages-image-8.jpg" alt="">
+                        <div class="order">
+                            <div class="dollar">
+                                <i class="fa-solid fa-dollar-sign"></i>
+                            </div>
+                            <div class="order-btn">
+                                <a href="#" class="btn">order</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-container">
+                        <h3>tea</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Magnam ad nam exercitationem delectus molestiae ab iste 
+                            libero fuga necessitatibus quisquam.
+                        </p>
+                        <div class="price">
+                            <span>S: $2.00</span>
+                            <span>M: $2.50</span>
+                            <span>L: $3.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    <!-- Beverages section ends -->
+
+    <!-- Bites section starts -->
+    <section class="bites" id="bites">
+        <div class="title-container">
+            <h2>our <span>bites</span></h2>
+        </div>
+
+        <div class="bites-container">
+            <div class="box">
+                <div class="image-container">
+                    <img src="/images/bites-image-1.jpg" alt="">
+                    <div class="order">
+                        <div class="dollar">
+                            <i class="fa-solid fa-dollar-sign"></i>
+                        </div>
+                        <div class="order-btn">
+                            <a href="#" class="btn">order</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-container">
+                    <h3>croissant</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Magnam ad nam exercitationem delectus molestiae ab iste 
+                        libero fuga necessitatibus quisquam.
+                    </p>
+                    <div class="price">
+                        <span>$2.50</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image-container">
+                    <img src="/images/bites-image-2.jpg" alt="">
+                    <div class="order">
+                        <div class="dollar">
+                            <i class="fa-solid fa-dollar-sign"></i>
+                        </div>
+                        <div class="order-btn">
+                            <a href="#" class="btn">order</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-container">
+                    <h3>danish</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Magnam ad nam exercitationem delectus molestiae ab iste 
+                        libero fuga necessitatibus quisquam.
+                    </p>
+                    <div class="price">
+                        <span>$3.50</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image-container">
+                    <img src="/images/bites-image-3.jpg" alt="">
+                    <div class="order">
+                        <div class="dollar">
+                            <i class="fa-solid fa-dollar-sign"></i>
+                        </div>
+                        <div class="order-btn">
+                            <a href="#" class="btn">order</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-container">
+                    <h3>cinnamon rolls</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Magnam ad nam exercitationem delectus molestiae ab iste 
+                        libero fuga necessitatibus quisquam.
+                    </p>
+                    <div class="price">
+                        <span>$4.50</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image-container">
+                    <img src="/images/bites-image-4.jpg" alt="">
+                    <div class="order">
+                        <div class="dollar">
+                            <i class="fa-solid fa-dollar-sign"></i>
+                        </div>
+                        <div class="order-btn">
+                            <a href="#" class="btn">order</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-container">
+                    <h3>macarons</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Magnam ad nam exercitationem delectus molestiae ab iste 
+                        libero fuga necessitatibus quisquam.
+                    </p>
+                    <div class="price">
+                        <span>$1.50</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image-container">
+                    <img src="/images/bites-image-5.jpg" alt="">
+                    <div class="order">
+                        <div class="dollar">
+                            <i class="fa-solid fa-dollar-sign"></i>
+                        </div>
+                        <div class="order-btn">
+                            <a href="#" class="btn">order</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-container">
+                    <h3>crepes</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Magnam ad nam exercitationem delectus molestiae ab iste 
+                        libero fuga necessitatibus quisquam.
+                    </p>
+                    <div class="price">
+                        <span>$3.50</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image-container">
+                    <img src="/images/bites-image-6.jpg" alt="">
+                    <div class="order">
+                        <div class="dollar">
+                            <i class="fa-solid fa-dollar-sign"></i>
+                        </div>
+                        <div class="order-btn">
+                            <a href="#" class="btn">order</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-container">
+                    <h3>pie</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Magnam ad nam exercitationem delectus molestiae ab iste 
+                        libero fuga necessitatibus quisquam.
+                    </p>
+                    <div class="price">
+                        <span>$4.00</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image-container">
+                    <img src="/images/bites-image-7.jpg" alt="">
+                    <div class="order">
+                        <div class="dollar">
+                            <i class="fa-solid fa-dollar-sign"></i>
+                        </div>
+                        <div class="order-btn">
+                            <a href="#" class="btn">order</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-container">
+                    <h3>cookies</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Magnam ad nam exercitationem delectus molestiae ab iste 
+                        libero fuga necessitatibus quisquam.
+                    </p>
+                    <div class="price">
+                        <span>$2.25</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image-container">
+                    <img src="/images/bites-image-8.jpg" alt="">
+                    <div class="order">
+                        <div class="dollar">
+                            <i class="fa-solid fa-dollar-sign"></i>
+                        </div>
+                        <div class="order-btn">
+                            <a href="#" class="btn">order</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-container">
+                    <h3>gelatto</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Magnam ad nam exercitationem delectus molestiae ab iste 
+                        libero fuga necessitatibus quisquam.
+                    </p>
+                    <div class="price-gelatto">
+                        <span>S: $4.00</span>
+                        <span>M: $5.50</span>
+                        <span>L: $7.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Bites sectino ends -->
+
+    <!-- Contact sectoin starts -->
+    <section class="contact" id="contact">
+
+        <div class="title-container">
+            <h2>contact <span>us</span></h2>
+        </div>
+
+        <form action="">
+            <div class="content-container">
+                <div class="content">
+                    <div class="input-container">
+                        <label for="#name">name</label>
+                        <input type="text" id="name">
+                    </div>
+                    <div class="input-container">
+                        <label for="#email">email</label>
+                        <input type="email" id="email">
+                    </div>
+                    <div class="input-container">
+                        <label for="#number">number</label>
+                        <input type="number" id="number">
+                    </div>
+                    <div class="input-container">
+                        <label for="message">message</label>
+                        <textarea name="" id="message" cols="30" rows="10" placeholder="enter your message ..."></textarea>
+                    </div>
+                </div>
+                <div class="map">
+                    <label for="">come visit us !</label>
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.9761575283915!2d-75.15957698516274!3d39.94192297942314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c620e1ca1acd%3A0x864dead55b47c743!2s620%20S%209th%20St%2C%20Philadelphia%2C%20PA%2019147!5e0!3m2!1sen!2sus!4v1646063175965!5m2!1sen!2sus" 
+                        width="600" 
+                        height="400" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+            <a href="#" class="btn">submit</a>
+        </form>
+    </section>
+    <!-- Contact section ends -->
+
+    <!-- Footer section starts -->
+    <footer class="footer">
+        <div class="social">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+        </div>
+        <div class="contact-info">
+            <span><i class="fa-solid fa-phone"></i>(215)-123-4567</span>
+            <span><i class="fa-solid fa-envelope"></i>lighthousecafe@email.com</span>
+        </div>
+        <div class="credit">
+            <h3>created by <span>robby moore</span> | all rights reserved</h3>
+        </div>
+    </footer>
+    <!-- Footer section ends -->
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
