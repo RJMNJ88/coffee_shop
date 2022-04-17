@@ -244,7 +244,7 @@ header {
 .home {
     position: relative;
     z-index: 0;
-    background: url(images/home-bg.jpg);
+    background: url(/images/home-bg.jpg);
     padding: 2rem 8%;
 
     &::before {
@@ -471,7 +471,7 @@ header {
 .beverages {
     position: relative;
     z-index: 0;
-    background: url(images/beverages-bg.jpg);
+    background: url(/images/beverages-bg.jpg);
     background-size: cover;
     background-position: center;
     padding: 2rem 0;
@@ -724,7 +724,7 @@ header {
 .contact {
     position: relative;
     z-index: 0;
-    background: url(images/contact-bg.jpg);
+    background: url(/images/contact-bg.jpg);
     background-size: cover;
     background-position: center;
 
